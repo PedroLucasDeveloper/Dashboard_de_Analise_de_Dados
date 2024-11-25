@@ -1,0 +1,33 @@
+# Dashboard de Análise de Dados
+
+Um painel interativo e responsivo para exibir gráficos, tabelas e métricas dinâmicas utilizando dados de APIs públicas ou arquivos locais. Este projeto utiliza uma arquitetura moderna com frontend em React e backend em Express.
+
+---
+
+## Funcionalidades
+
+- **Gráficos interativos:** Dados visualizados de forma intuitiva.
+- **Tabelas dinâmicas:** Dados filtráveis e organizados.
+- **API personalizada:** Integração com APIs públicas e suporte a banco de dados.
+- **Interface responsiva:** Compatível com dispositivos móveis e desktops.
+
+---
+
+## Tecnologias Utilizadas
+
+### Frontend
+- **Framework:** React 18.3
+- **Estilização:** Material-UI (MUI) com Emotion
+- **Gerenciamento de estados:** Hooks do React
+- **Requisições HTTP:** Axios
+- **Ferramenta de build:** Vite
+
+### Backend
+- **Framework:** Express.js
+- **Banco de Dados:** PostgreSQL com Sequelize
+- **Outros:** Mongoose para MongoDB (opcional), dotenv para variáveis de ambiente
+- **CORS:** Configuração para permitir origens cruzadas
+
+### Ferramentas de Desenvolvimento
+- **Linting:** ESLint
+- **Hot Reload:** Vite no frontend e Nodemon no backend
